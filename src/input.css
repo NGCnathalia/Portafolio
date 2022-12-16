@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-rosado: #cb716910;
+  --bg-btn: #170000;
+  --bg-form: #cb716940;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.divLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.divLogo img {
+  width: 7rem;
+  height: auto;
+}
+.divLogo h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: xx-large;
+  color: var(--bg-btn);
+}
+.divNav a {
+  color: var(--bg-btn);
+  text-decoration: none;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: var(--bg-btn);
+  padding: 1rem 1rem;
+}
+.divBtn {
+  background-color: var(--bg-btn);
+  color: #ffff;
+  margin-right: 2rem;
+  border-radius: 50px;
+  padding: 0.8rem 1.5rem;
+}
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+.btnRedes {
+  margin: 0rem 0.5rem;
+}
+.btnRedes img {
+  width: 3rem;
+  height: auto;
+}
+.inf h1,
+.inf h2 {
+  text-align: center;
+}
+.fotoPerfil {
+  width: 50%;
+  height: auto;
+}
+.divRedes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.divSobreMi {
+  background-color: var(--bg-rosado);
+}
+.seccion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+
+.contenidoSeccion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem 3rem;
+}
+.contenidoSeccion h1 {
+  padding-bottom: 4rem;
+}
+.contenidoSeccion p {
+  text-align: justify;
+}
+.seccionNav {
+  padding: 1rem 3rem;
+}
+
+.divNavSecond {
+  display: flex;
+  justify-content: space-between;
+}
+
