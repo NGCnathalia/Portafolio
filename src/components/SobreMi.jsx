@@ -1,6 +1,7 @@
 import React from 'react'
 import logo1 from '../assets/img/logo.png'
 import NavSecond from './NavSecond'
+
 function SobreMi() {
   return (
     <div className='divSobreMi'>

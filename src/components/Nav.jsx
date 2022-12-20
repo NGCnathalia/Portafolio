@@ -8,8 +8,8 @@ const Nav = () => {
             <a href="#/" >Sobre mi</a>
             <a href="#/" >Proyectos</a>
             <a href="#/" >Contacto</a>
-            
         </nav>
+        
     )
 }
 
