@@ -1,13 +1,13 @@
 import React from 'react'
 
-function Btn() {
+function Btn2() {
     return (
         <div>
             <button className='divBtn'>
-            <a href="#Contact" >Hablemos</a>
+                Enviar Mensaje
             </button>
         </div>
     )
 }
 
-export default Btn
+export default Btn2

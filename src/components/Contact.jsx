@@ -1,5 +1,6 @@
 import React from 'react'
 import ubication from '../assets/img/Ubicacion.png'
+import { FormContact } from './formulario/FormContact'
 function Contact() {
     return (
         <div className='divContact'>
@@ -18,8 +19,8 @@ function Contact() {
                     </div>
                 </div>
                 <div>
-                    Formulario
-
+                    <h5>Formulario</h5>
+                    <FormContact />
                 </div>
             </div>
 

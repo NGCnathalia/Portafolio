@@ -39,9 +39,9 @@ header {
   text-decoration: none;
 }
 
-a:link,
-a:visited,
-a:active {
+.divNav a:link,
+.divNav a:visited,
+.divNav a:active {
   color: var(--bg-btn);
   padding: 1rem 1rem;
 }
@@ -51,6 +51,12 @@ a:active {
   margin-right: 2rem;
   border-radius: 50px;
   padding: 0.8rem 1.5rem;
+}
+.divBtn a:link,
+.divBtn a:visited,
+.divBtn a:active {
+  color: white;
+  text-decoration: none;
 }
 .banner {
   display: flex;
@@ -166,3 +172,21 @@ a:active {
   width: 2rem;
   height: auto;
 }
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.divLogo1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.divLogo1 img {
+  width: 2.5rem;
+  height: auto;
+}
+

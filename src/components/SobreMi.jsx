@@ -20,7 +20,6 @@ function SobreMi() {
         <div className='seccionNav'>
             <NavSecond/>
         </div>
-
     </div>
   )
 }
