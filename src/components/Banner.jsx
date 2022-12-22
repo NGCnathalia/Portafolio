@@ -16,6 +16,7 @@ function Banner() {
                 <div className='divRedes'>
                     <button className='btnRedes'><img src={linkedin} alt="linkeind" /></button>
                     <button className='btnRedes'><img src={gitHub} alt="gitHub" /></button>
+                    
                 </div>
             </div>
             <img className='fotoPerfil' src={logo1} alt="mi carita" />

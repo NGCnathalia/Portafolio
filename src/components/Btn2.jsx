@@ -2,7 +2,7 @@ import React from 'react'
 
 function Btn2() {
     return (
-        <div>
+        <div className='divBtn2'>
             <button className='divBtn'>
                 Enviar Mensaje
             </button>

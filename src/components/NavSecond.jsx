@@ -38,10 +38,10 @@ export default function NavSecond() {
     return (
         <div>
             <nav className='divNavSecond'>
-                <a onClick={() => { clicks(1) }}>Habilidades</a>
-                <a onClick={() => { clicks(2) }}>Educacion</a>
-                <a onClick={() => { clicks(3) }}>Tecnologias</a>
-                <a onClick={() => { clicks(4) }}>Redes Sociales</a>
+                <a onClick={() => { clicks(1) }}> <h3>Habilidades</h3> </a>
+                <a onClick={() => { clicks(2) }}> <h3>Educación</h3> </a>
+                <a onClick={() => { clicks(3) }}> <h3>Tecnologías</h3> </a>
+                <a onClick={() => { clicks(4) }}> <h3>Redes Sociales</h3> </a>
             </nav>
             <div>
 

@@ -89,6 +89,7 @@ header {
 .divSobreMi {
   background-color: var(--bg-rosado);
 }
+
 .seccion {
   display: flex;
   flex-direction: row;
@@ -119,6 +120,15 @@ header {
   justify-content: space-between;
 }
 
+.divTecnologias{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 30px;
+  grid-auto-rows: minmax(100px, auto);
+  margin: 20px 20px;
+  text-align: center;
+}
+
 /* --- */
 .divProyectos{
   display: flex;
@@ -146,6 +156,7 @@ header {
 
  /* --- Contact --- */
  .divContact{
+  background-color: var(--bg-rosado);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -155,12 +166,17 @@ header {
  .divContactContent{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
+  grid-gap: 3rem;
   grid-auto-rows: minmax(100px, auto);
   margin: 2rem 2rem;
+ 
  }
 .divContactText{
   text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .divUbication{
   display: flex;
@@ -172,12 +188,38 @@ header {
   width: 2rem;
   height: auto;
 }
+/* --Estilos Formulario-- */
+.divForm{
+  background-color: #cb716950;
+  padding: 1rem 1rem;
+  border-radius: 30px;
+}
 
+label{
+  color: transparent;
+}
+input{
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  padding: 10px;
+}
+.divBtn2{
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+
+/* --footer-- */
 footer{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 2rem 1rem;
 }
 .divLogo1{
   display: flex;
@@ -185,8 +227,8 @@ footer{
   justify-content: center;
   align-items: center;
 }
-.divLogo1 img {
-  width: 2.5rem;
+.divLogo1 img, .divRedesF img {
+  width: 2rem;
   height: auto;
 }
 

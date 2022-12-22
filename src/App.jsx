@@ -5,8 +5,6 @@ import Proyectos from "./components/Proyectos"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
 
-
-
 //rfce para crear un componente basico 
 function App() {
 
@@ -21,8 +19,7 @@ function App() {
       <Proyectos/>
       <a id="Contact"></a>
       <Contact/>
-     
-      <Footer/>
+          <Footer/>
     </div>
 
   )

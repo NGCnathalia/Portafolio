@@ -18,8 +18,8 @@ function Contact() {
                         <h6> Bogotá, Colombia.</h6>
                     </div>
                 </div>
-                <div>
-                    <h5>Formulario</h5>
+                <div className='divForm'>
+                    {/* <h5>Formulario</h5> */}
                     <FormContact />
                 </div>
             </div>

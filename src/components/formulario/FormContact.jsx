@@ -16,8 +16,8 @@ export const FormContact = () => {
                     <Form>
                         <InputsField label="Nombre" name="name" type="text" placeholder="Add name" />
                         <InputsField label="Correo electrónico" name="email" type="email" placeholder="Please add a email" />
-                        <InputsField label="Asunto" name="Asunto" type="text" placeholder="Asunto" />
-                        <InputsField label="Mensaje" name="Mensaje" type="text" placeholder="Mensaje" />
+                        <InputsField label="Asunto" name="Asunto" type="text" placeholder="Subject" />
+                        <InputsField label="Mensaje" name="Mensaje" type="text" placeholder="Message           " />
                         <Btn2/>
                     </Form>
                 )}
