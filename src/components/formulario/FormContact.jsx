@@ -1,7 +1,8 @@
 import React from 'react'
+import '../formulario/formContact.css'
 import { Form, Formik } from 'formik'
 import { InputsField } from './InputsField'
-import Btn2 from '../Btn2'
+import Btn2 from './Btn2'
 export const FormContact = () => {
     return (
         <div>
@@ -17,7 +18,7 @@ export const FormContact = () => {
                         <InputsField label="Nombre" name="name" type="text" placeholder="Add name" />
                         <InputsField label="Correo electrónico" name="email" type="email" placeholder="Please add a email" />
                         <InputsField label="Asunto" name="Asunto" type="text" placeholder="Subject" />
-                        <InputsField label="Mensaje" name="Mensaje" type="text" placeholder="Message           " />
+                        <InputsField label="Mensaje" name="Mensaje" type="text" placeholder="Message" />
                         <Btn2/>
                     </Form>
                 )}

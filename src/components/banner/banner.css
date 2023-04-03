@@ -1,0 +1,29 @@
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+.btnRedes {
+  border: none;
+  margin: 0rem 0.5rem;
+}
+.btnRedes img {
+  width: 3rem;
+  height: auto;
+}
+.inf h1,
+.inf h2 {
+  text-align: center;
+}
+.fotoPerfil {
+  width: 50%;
+  height: auto;
+}
+.divRedes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

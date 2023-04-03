@@ -1,8 +1,9 @@
 import { useState } from "react";
-import Habilidades from './Habilidades'
-import Educacion from './Educacion'
-import Tecnologias from './Tecnologias'
-import RedesSociales from './RedesSociales'
+import '../navSecond/navSecond.css'
+import Habilidades from '../navSecond/Habilidades'
+import Educacion from '../navSecond/Educacion'
+import Tecnologias from '../navSecond/Tecnologias'
+import RedesSociales from '../navSecond/RedesSociales'
 
 export default function NavSecond() {
     const [clickSkill, setClickSkill] = useState(false);

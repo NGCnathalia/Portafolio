@@ -1,7 +1,8 @@
 import React from 'react'
-import logo1 from '../assets/img/logo.png'
-import linkedin from '../assets/img/Linkedin.png'
-import gitHub from '../assets/img/gitHub.png'
+import '../banner/banner.css'
+import logo1 from '../../assets/img/logo.png'
+import linkedin from '../../assets/img/Linkedin.png'
+import gitHub from '../../assets/img/gitHub.png'
 
 function Banner() {
     return (

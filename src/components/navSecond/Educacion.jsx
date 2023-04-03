@@ -1,9 +1,9 @@
 import React from 'react'
-import certificadoImg from '../assets/img/certificadoImg.png'
+import certificadoImg from '../../assets/img/certificadoImg.png'
 
 function Educacion() {
   return (
-    <div>Educacion
+    <div className='divEducation'>Educacion
       <img src={certificadoImg} alt="" />
     </div>
   )

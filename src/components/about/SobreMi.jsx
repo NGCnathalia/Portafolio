@@ -1,12 +1,13 @@
 import React from 'react'
-import logo1 from '../assets/img/logo.png'
-import NavSecond from './NavSecond'
+import '../about/about.css'
+import foto from '../../assets/img/foto.jpg'
+import NavSecond from '../navSecond/NavSecond'
 
 function SobreMi() {
   return (
     <div className='divSobreMi'>
         <div className='seccion'>
-            <img className='fotoPerfil' src={logo1} alt="mi carita" />
+            <img className='foto' src={foto} alt="foto Nathalia" />
             <div className='contenidoSeccion'>
                 <h1>
                     SOBRE MI

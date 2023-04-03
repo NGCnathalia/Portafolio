@@ -1,5 +1,6 @@
 import React from 'react'
-import "../input.css"
+import '../header/header.css'
+
 
 const Nav = () => {
     return(

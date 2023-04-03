@@ -1,6 +1,7 @@
 import React from 'react';
-import logo1 from '../assets/img/logo.png'
-import Nav from './Nav';
+import '../header/header.css'
+import logo1 from '../../assets/img/logo.png'
+import Nav from '../header/Nav';
 import Btn from './Btn';
 function Header() {
     return (

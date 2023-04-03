@@ -1,0 +1,48 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.divLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.divLogo img {
+  width: 7rem;
+  height: auto;
+}
+.divLogo h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: xx-large;
+  color: var(--bg-btn);
+}
+.divNav a {
+  color: var(--bg-btn);
+  text-decoration: none;
+}
+
+.divNav a:link,
+.divNav a:visited,
+.divNav a:active {
+  color: var(--bg-btn);
+  padding: 1rem 1rem;
+}
+.divBtn {
+  background-color: var(--bg-btn);
+  color: #ffff;
+  margin-right: 2rem;
+  border-radius: 50px;
+  padding: 0.8rem 1.5rem;
+}
+.divBtn a:link,
+.divBtn a:visited,
+.divBtn a:active {
+  color: white;
+  text-decoration: none;
+}
+.seccionNav {
+  padding: 1rem 3rem;
+}

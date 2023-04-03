@@ -1,4 +1,5 @@
 import React from 'react'
+import '../formulario/formContact.css'
 import { ErrorMessage, useField } from 'formik'
 
 export const InputsField = ({ label, ...props }) => {

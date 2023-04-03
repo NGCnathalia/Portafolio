@@ -1,8 +1,9 @@
 import React from 'react';
-import Btn1 from './Btn1';
-import webTributo from  '../assets/img/webTributo.png';
-import calculadora from '../assets/img/Calculadora1.png';
-import wheelOf from '../assets/img/wheelOf.jpg';
+import '../projects/projects.css'
+import Btn1 from '../projects/Btn1';
+import webTributo from  '../../assets/img/webTributo.png';
+import calculadora from '../../assets/img/Calculadora1.png';
+import wheelOf from '../../assets/img/wheelOf.jpg';
 
 
 function proyectos() {

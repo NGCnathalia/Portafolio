@@ -1,9 +1,9 @@
-import Header from "./components/Header"
-import Banner from "./components/Banner"
-import SobreMi from "./components/SobreMi"
-import Proyectos from "./components/Proyectos"
-import Contact from "./components/Contact"
-import Footer from "./components/Footer"
+import Header from "./components/header/Header"
+import Banner from "./components/banner/Banner"
+import SobreMi from "./components/about/SobreMi"
+import Proyectos from "./components/projects/Proyectos"
+import Contact from "./components/contact/Contact"
+import Footer from "./components/footer/Footer"
 
 //rfce para crear un componente basico 
 function App() {

@@ -1,9 +1,9 @@
 import React from 'react'
-import htmlImg from '../assets/img/htmlImg.png'
-import cssImg from '../assets/img/cssImg.png'
-import jsImg from '../assets/img/javaScriptImg.png'
-import bootstrapImg from '../assets/img/bootstrapImg.png'
-import reactImg from '../assets/img/reactImg.png'
+import htmlImg from '../../assets/img/htmlImg.png'
+import cssImg from '../../assets/img/cssImg.png'
+import jsImg from '../../assets/img/javaScriptImg.png'
+import bootstrapImg from '../../assets/img/bootstrapImg.png'
+import reactImg from '../../assets/img/reactImg.png'
 function Tecnologias() {
   return (
     <div>
