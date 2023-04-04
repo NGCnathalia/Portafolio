@@ -4,7 +4,7 @@ import '../formulario/formContact.css'
 function Btn2() {
     return (
         <div className='divBtn2'>
-            <button className='divBtn'>
+            <button type="submit" className='divBtn'>
                 Enviar Mensaje
             </button>
         </div>

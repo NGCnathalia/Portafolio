@@ -8,7 +8,7 @@ import RedesSociales from '../navSecond/RedesSociales'
 export default function NavSecond() {
     const [clickSkill, setClickSkill] = useState(false);
     const [clickEducation, setClickEducation] = useState(false);
-    const [clickTechnology, setClickTechnology] = useState(false);
+    const [clickTechnology, setClickTechnology] = useState(true);
     const [clickNetwork, setClickNetwork] = useState(false);
     function clicks(num) {
         console.log("entro");

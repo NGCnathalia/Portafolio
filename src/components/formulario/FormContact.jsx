@@ -15,10 +15,10 @@ export const FormContact = () => {
                     resetForm()}} >
                 {formik => (
                     <Form>
-                        <InputsField label="Nombre" name="name" type="text" placeholder="Add name" />
-                        <InputsField label="Correo electrónico" name="email" type="email" placeholder="Please add a email" />
-                        <InputsField label="Asunto" name="Asunto" type="text" placeholder="Subject" />
-                        <InputsField label="Mensaje" name="Mensaje" type="text" placeholder="Message" />
+                        <InputsField label="Nombre" name="name" type="text" placeholder="Ingrese su nombre completo." />
+                        <InputsField label="Correo electrónico" name="email" type="email" placeholder="Ingrese su correo electrónico." />
+                        <InputsField label="Asunto" name="Asunto" type="text" placeholder="Ingrese el asunto." />
+                        <InputsField label="Mensaje" name="Mensaje" type="text" placeholder="Ingrese su mensaje." />
                         <Btn2/>
                     </Form>
                 )}
