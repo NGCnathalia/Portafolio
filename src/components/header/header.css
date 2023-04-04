@@ -21,7 +21,7 @@ header {
 }
 .divNav a {
   color: var(--bg-btn);
-  text-decoration: none;
+  text-decoration:underline;
 }
 
 .divNav a:link,

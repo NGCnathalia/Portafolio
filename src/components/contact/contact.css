@@ -12,7 +12,7 @@
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 3rem;
   grid-auto-rows: minmax(100px, auto);
-  margin: 2rem 2rem;
+  margin: 2rem;
  
  }
 .divContactText{
@@ -21,6 +21,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.divContactText p{
+  padding: 2.5rem;
+}
+.divContact h1{
+  padding-top: 3rem;
 }
 .divUbication{
   display: flex;

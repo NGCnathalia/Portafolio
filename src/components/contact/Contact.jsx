@@ -12,15 +12,14 @@ function Contact() {
             </div>
             <div className='divContactContent'>
                 <div className='divContactText'>
-                    <h2>Titulo</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum natus consequuntur fugit similique dicta et blanditiis rerum voluptates, delectus magnam. Inventore quod nulla rem voluptatem, dolorum id sapiente quas nihil.</p>
+                    <h2>TRABAJEMOS JUNTOS</h2>
+                    <p>Si tiene un proyecto en mente, me encantaría hacer parte de su equipo de desarrollo, no dude en ponerse en contacto conmigo a través del formulario independientemente del tema.</p>
                     <div className='divUbication'>
                         <img src={ubication} alt="ubicacion" />
                         <h6> Bogotá, Colombia.</h6>
                     </div>
                 </div>
                 <div className='divForm'>
-                    {/* <h5>Formulario</h5> */}
                     <FormContact />
                 </div>
             </div>

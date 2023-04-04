@@ -3,9 +3,12 @@ import React from 'react'
 function Habilidades() {
   return (
     <div>
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit culpa nobis iste voluptates, dignissimos placeat laborum veritatis suscipit in, quisquam odio dolorem doloribus quo nam! Culpa eum possimus velit hic.
-        </p>
+      <h4>HABILIDADES PERSONALES</h4>
+      <li>Autogestión</li>
+      <li>Capacidad de análisis</li>
+      <li>Comunicación efectiva</li>
+      <li>Solución de problemas</li>
+      <li>Trabajo en equipo</li>
     </div>
   )
 }

@@ -13,7 +13,8 @@ function SobreMi() {
                     SOBRE MI
                 </h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, ad. Aspernatur, velit tempore quidem quae incidunt culpa. Aperiam impedit voluptatum deserunt quos fugiat dicta sunt, dolor maiores optio fugit. Iure?elit. Iusto, ad. Aspernatur, velit tempore quidem quae incidunt culpa. Aperiam impedit
+                   Ingeniera industrial con conocimientos en desarrollo web full stack, metodologías agiles (Scrum), JavaScript, React, Node Js, HTML, CSS, Bootstrap y Figma. Mujer caracterizada por su autogestión, capacidad de análisis, trabajo en equipo, adaptación al cambio, comunicación efectiva y solución de problemas.
+
                 </p>
             </div>
 

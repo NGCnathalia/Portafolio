@@ -5,12 +5,8 @@
   align-items: center;
   padding: 1rem 3rem;
 }
-.btnRedes {
-  border: none;
-  margin: 0rem 0.5rem;
-}
-.btnRedes img {
-  width: 3rem;
+.divRedes img{
+  width: 5rem;
   height: auto;
 }
 .inf h1,
