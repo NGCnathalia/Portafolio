@@ -2,7 +2,7 @@ import React from 'react'
 
 function Habilidades() {
   return (
-    <div>
+    <div className='divSkills'>
       <h4>HABILIDADES PERSONALES</h4>
       <li>Autogestión</li>
       <li>Capacidad de análisis</li>

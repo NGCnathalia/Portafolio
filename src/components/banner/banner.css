@@ -6,7 +6,7 @@
   padding: 1rem 3rem;
 }
 .divRedes img{
-  width: 5rem;
+  width: 2.5rem;
   height: auto;
 }
 .inf h1,
@@ -14,6 +14,7 @@
   text-align: center;
 }
 .fotoPerfil {
+  display: none;
   width: 50%;
   height: auto;
 }
@@ -22,4 +23,26 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+} 
+@media screen and (min-width: 744px) and (max-width: 1439px) {
+  .fotoPerfil {
+    display: block;
+  }
+  .divRedes img{
+    width: 5rem;
+  }
+  .banner {
+    padding: 1rem 4rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .fotoPerfil {
+    display: block;
+  }
+  .divRedes img{
+    width: 7rem;
+  }
+  .banner {
+    padding: 1rem 7rem;
+  }
 }
